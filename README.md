@@ -50,12 +50,12 @@ Once you have installed the required packages shown on the Required Installation
 * Clone this Repository
 
 `
-git clone https://github.com/UgegeDaniel/task-tracker-v2.git
+git clone https://github.com/UgegeDaniel/game-of-quotes.git
 `
 
 * Move to the downloaded folder
 
-`cd task-tracker-v2
+`cd game-of-quotes
 `
 
 * Install all packages
