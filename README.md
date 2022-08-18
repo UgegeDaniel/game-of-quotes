@@ -34,7 +34,7 @@ JavaScript
 React
 
 ## Live Preview
-Find the live version here. 
+Find the live version [here](https://game-of-quotes.pages.dev/). 
 
 
 
