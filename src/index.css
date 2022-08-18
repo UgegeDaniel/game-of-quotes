@@ -147,6 +147,7 @@ main {
   box-shadow: var(--light-shadow);
   transition: var(--transition);
   text-align: center;
+  min-height: 90%;
 }
 .review:hover {
   box-shadow: var(--dark-shadow);
@@ -201,6 +202,7 @@ main {
 }
 .info {
   margin-bottom: 0.75rem;
+  height: 3.5rem;
 }
 .prev-btn,
 .next-btn {
