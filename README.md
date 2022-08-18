@@ -38,7 +38,8 @@ Find the live version [here](https://game-of-quotes.pages.dev/).
 
 
 
-Below is a screenshot of what it looks like.
+Below is a screenshot of what it looks like
+![Project screenshot]()
 
 
 ## Required Installations
