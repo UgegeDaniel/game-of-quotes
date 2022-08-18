@@ -233,7 +233,7 @@ main {
   background: var(--clr-primary-5);
   color: var(--clr-primary-1);
 }
-.loading  > h1, .title{
-  font-size: 2.5rem;
-  text-transform: uppercase !important
+.loading .title{
+  font-size: 0.75rem;
+  padding: 3rem;
 }
