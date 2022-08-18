@@ -108,6 +108,8 @@ p {
 @media screen and (min-width: 992px) {
   .section {
     width: 95vw;
+    max-height: 80vh;
+    overflow: hidden;
   }
 }
 
@@ -135,6 +137,8 @@ main {
 .container {
   width: 80vw;
   max-width: var(--fixed-width);
+  max-height: 90vh;
+  overflow: hidden;
 }
 .review {
   background: var(--clr-white);
