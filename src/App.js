@@ -19,9 +19,6 @@ function App() {
 
   useEffect(() => {
     fetchUrlData(url, onStart, onQuotesSuccess, onError)
-  }, [])
-
-  useEffect(() => {
     fetchUrlData(characterUrl, onStart, onUsersSuccess, onError)
   }, [])
 
