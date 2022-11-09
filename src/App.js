@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import Card from './components/Card';
 import Loading from './components/Loading'
 import { navigation, fetchUrlData } from './utils';
-import title from './assests/img/goq.jpg'
+import title from './img/gotLogo.jpg'
 const url = process.env.REACT_APP_URL
 const characterUrl = process.env.REACT_APP_USERS_URL
 
@@ -42,7 +42,7 @@ function App() {
     <main>
       <section className='container'>
         <div className='title'>
-          <div style={{height: '2rem', width: '50%'}}><img src={title} alt"title"></div>
+          <div style={{height: '2rem', width: '50%'}}><img src={title} alt"title" style={{height: '100%' width: '100%'}}></div>
           <div className='underline'></div>
         </div>
         <Card character={{ ...character, imageUrl }} quote={quote} onNext={onNext} onPrevious={onPrevious} onRandom={onRandom}/>
