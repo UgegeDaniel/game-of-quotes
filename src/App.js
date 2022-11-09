@@ -42,7 +42,7 @@ function App() {
     <main>
       <section className='container'>
         <div className='title'>
-          <div style={{height: '2rem', width: '50%'}}><img src={title} alt="title" style={{height: '100%', width: '100%'}}/></div>
+          <div style={{height: '5rem', width: '50%', margin: '0 2rem'}}><img src={title} alt="title" style={{height: '100%', width: '100%'}}/></div>
         </div>
         <Card character={{ ...character, imageUrl }} quote={quote} onNext={onNext} onPrevious={onPrevious} onRandom={onRandom}/>
       </section>
