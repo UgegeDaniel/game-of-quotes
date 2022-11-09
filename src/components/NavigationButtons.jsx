@@ -12,7 +12,7 @@ const NavigationButtons = ({ onPrevious, onNext, onRandom}) => {
         </button>
       </div>
       <button className='random-btn' onClick={onRandom}>
-        surprise me
+        Another Quote
       </button>
     </>
 
