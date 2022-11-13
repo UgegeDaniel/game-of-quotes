@@ -1,3 +1,4 @@
+*deployed on vercel*
 # Game of Quotes
 
 This is a React app that displays notable quotes by our favorite characters from the HBO series 'Game of Thrones'. Its a simple app that demostrates the basic features of the React library.
