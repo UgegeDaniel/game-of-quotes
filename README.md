@@ -46,7 +46,7 @@ Find the live version [here](https://game-of-quotes.pages.dev/).
 
 Below is a screenshot of what it looks like
 
-![Project screenshot](https://github.com/UgegeDaniel/game-of-quotes/blob/master/src/img/dez-got.png)
+<img src="https://github.com/UgegeDaniel/game-of-quotes/blob/master/src/img/dez-got.png" alt="project screenshot" height="300px" width="auto"/>
 
 ## Required Installations
 
