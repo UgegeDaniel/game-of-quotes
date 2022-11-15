@@ -45,11 +45,20 @@ function App() {
       <section className="container">
         <div className="title">
           <div
-            style={{ height: '5rem', width: '50%', margin: '0 2rem' }}>
+            style={{
+              height: '5rem', width: '50%', margin: '0 2rem',
+            }}
+          >
             <img src={title} alt="title" style={{ height: '100%', width: '100%' }} />
           </div>
         </div>
-        <Card character={{ ...character, imageUrl }} quote={quote} onNext={onNext} onPrevious={onPrevious} onRandom={onRandom} />
+        <Card
+          character={{ ...character, imageUrl }}
+          quote={quote}
+          onNext={onNext}
+          onPrevious={onPrevious}
+          onRandom={onRandom}
+        />
       </section>
     </main>
   );
