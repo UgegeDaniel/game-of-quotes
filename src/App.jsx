@@ -43,15 +43,8 @@ function App() {
   return (
     <main>
       <section className="container">
-        <div className="title">
-          <div
-            style={{
-              height: '5rem', width: '50%', margin: '0 2rem',
-            }}
-          >
-            <img src={title} alt="title" style={{ height: '100%', width: '100%' }} />
-          </div>
-        </div>
+        <div className="title"> Game of Quotes</div>
+        <div className='underline'>{''}</div>
         <Card
           character={{ ...character, imageUrl }}
           quote={quote}
