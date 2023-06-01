@@ -1,88 +1,70 @@
-*deployed on vercel*
-# Game of Quotes
+# Getting Started with Create React App
 
-This is a React app that displays notable quotes by our favorite characters from the HBO series 'Game of Thrones'. Its a simple app that demostrates the basic features of the React library.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Table of Contents
+## Available Scripts
 
-- [App Features](#app-features)
-- [Concepts and Apis Employed](#concepts-and-apis-employed)
-- [Built with](#built-with)
-- [Live Preview](#live-preview)
-- [Required Installations](#required-installations)
-- [Installation of This App](#instalation)
-- [License](#license)
-- [Contact](#contact)
-- [Acknowledgements](#acknowledgements)
+In the project directory, you can run:
 
-## Concepts and APIs Employed
+### `npm start`
 
-- The API employed for movie information was gotten developed by Game of Thrones Quotes [here](https://api.gameofthronesquotes.xyz/v1/random/50).
-- Official API documentation for the GOT Quotes can be found [here](https://gameofthronesquotes.xyz/)
-- This app demonstrates the use of basic concepts of React Library 
-- This app demonstrates the use of basic concepts of React Library: 
-  - Modules
-  - Components structuring 
-  - React Functional component with typescript
-  - React hooks (useState, useEffect, useCallback)
-  - Custom hooks
-- This app also demonstrates the building of basic unit / integration tests with the React Testing Library.
-A user upon visiting the app, sees a random quote, the character who made the quote, details about the character and buttons to navigate to next quote, previous quote or a random quote. 
-This app demonstrates the use of basic concepts of React like:
-- Compnents structuring
-- Props
-- React Hooks - useState, useEffect
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-## Built with
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-- HTML5
-- CSS3
-- JavaScript
-- ES Lint (Air Bnb recomended standard)
-- React
+### `npm test`
 
-## Live Preview
-Find the live version [here](https://game-of-quotes.pages.dev/). 
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-Below is a screenshot of what it looks like
+### `npm run build`
 
-<img src="https://github.com/UgegeDaniel/game-of-quotes/blob/master/src/img/dez-got.png" alt="project screenshot" height="300px" width="auto"/>
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## Required Installations
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-Npm
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-Once you have installed the required packages shown on the Required Installations, proceed with the following steps :
+### `npm run eject`
 
-* Clone this Repository
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-`
-git clone https://github.com/UgegeDaniel/game-of-quotes.git
-`
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-* Move to the downloaded folder
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-`cd game-of-quotes
-`
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-* Install all packages
+## Learn More
 
-`npm install
-`
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-* Open the app
+To learn React, check out the [React documentation](https://reactjs.org/).
 
-`
-npm start
-`
+### Code Splitting
 
-## License
-Distributed under the MIT License. 
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-See LICENSE for more information.
+### Analyzing the Bundle Size
 
-### Contact
-🇳🇬 Ugege Daniel - ugege@gmail.com | [Github Account](https://github.com/UgegeDaniel) | [Twitter](https://twitter.com/home) | [Linkedin](https://linkedin.com/in/daniel-ugege-50a499227) |
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Acknowledgements
-John Smilga, Lewis Ugege and God Almighty .
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

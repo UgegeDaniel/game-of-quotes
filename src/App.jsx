@@ -41,9 +41,9 @@ function App() {
   const onRandom = () => setIndex(navigation.getRandomIndex(quotes.length));
 
   return (
-    <main>
+    <main className='section'>
       <section className="container">
-        <div className="title"> Game of Quotes</div>
+        <h2 className="title"> Game of Quotes</h2>
         <div className='underline'>{''}</div>
         <Card
           character={{ ...character, imageUrl }}
